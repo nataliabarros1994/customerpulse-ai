@@ -3,23 +3,23 @@
 **Projeto de Ciência de Dados Júnior**  
 Previsor de cancelamento de clientes (Churn Prediction)
 
-![Dashboard Streamlit](https://via.placeholder.com/800x400?text=Dashboard+CustomerPulse)
+![Dashboard Streamlit](https://via.placeholder.com/800x400?text=CustomerPulse+AI+Dashboard)
 
 ---
 
 ## 🎯 Sobre o Projeto
 
-Desenvolvi um modelo de Machine Learning para prever quais clientes têm risco de cancelar o serviço, além de um dashboard interativo para facilitar o uso.
+Desenvolvi um modelo de Machine Learning para prever quais clientes têm alto risco de cancelar o serviço, junto com um **dashboard interativo** feito em Streamlit.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **Python** 3.12+
-- **Pandas** + **NumPy** (manipulação de dados)
+- **Pandas** + **NumPy**
 - **Scikit-learn** (Random Forest)
-- **Seaborn / Matplotlib** (visualizações)
-- **Streamlit** (dashboard web)
+- **Seaborn** / **Matplotlib** (visualizações)
+- **Streamlit** (Dashboard web)
 - **Joblib** (salvar modelo)
 
 ---
@@ -27,7 +27,7 @@ Desenvolvi um modelo de Machine Learning para prever quais clientes têm risco d
 ## 📊 Principais Resultados
 
 - **Acurácia do modelo**: ~54% (dados sintéticos)
-- Variável mais importante: **Salário**
+- Variável **mais importante**: **Salário**
 - Segunda mais importante: **Tempo como cliente**
 
 ---
@@ -35,7 +35,7 @@ Desenvolvi um modelo de Machine Learning para prever quais clientes têm risco d
 ## 🚀 Como Executar o Projeto
 
 ```bash
-# 1. Entre na pasta do projeto
+# 1. Entre na pasta
 cd ~/Desktop/CustomerPulseAI
 
 # 2. Instale as dependências
